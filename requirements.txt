@@ -1,6 +1,6 @@
 --only-binary=:all:
 
-fastapi==0.104.1
-uvicorn==0.24.0
-sqlalchemy==2.0.23
-pydantic==2.5.0
+fastapi>=0.110,<0.112
+pydantic>=2.6,<3
+uvicorn>=0.24
+sqlalchemy>=2.0
